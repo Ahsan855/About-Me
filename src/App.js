@@ -5,6 +5,7 @@ import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
 import Pages from "./Components/Pages/Pages";
 import Services from "./Components/Service/Services";
+import Footer from "./Components/Share/Footer/Footer";
 import Navbar from "./Components/Share/Navbar/Navbar";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
