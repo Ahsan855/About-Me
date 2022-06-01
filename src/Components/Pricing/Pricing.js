@@ -27,7 +27,7 @@ const Pricing = () => {
               <li className="pb-2 hover:text-secondary">SEO Marketing</li>
               <li className="pb-2 hover:text-secondary">Business Analysis</li>
             </ul>
-            <button class="py-3 px-6 bg-primary text-xl mt-5 text-white rounded-full hover:bg-secondary duration-300">
+            <button className="py-3 px-6 bg-primary text-xl mt-5 text-white rounded-full hover:bg-secondary duration-300">
               Start Now
             </button>
           </div>
@@ -47,7 +47,7 @@ const Pricing = () => {
               <li className="pb-2 hover:text-secondary">SEO Marketing</li>
               <li className="pb-2 hover:text-secondary">Business Analysis</li>
             </ul>
-            <button class="py-3 px-6 bg-primary text-xl mt-5 text-white rounded-full hover:bg-secondary duration-300">
+            <button className="py-3 px-6 bg-primary text-xl mt-5 text-white rounded-full hover:bg-secondary duration-300">
               Start Now
             </button>
           </div>
@@ -68,7 +68,7 @@ const Pricing = () => {
               <li className="pb-2 hover:text-secondary">SEO Marketing</li>
               <li className="pb-2 hover:text-secondary">Business Analysis</li>
             </ul>
-            <button class="py-3 px-6 bg-primary text-xl mt-5 text-white rounded-full hover:bg-secondary duration-300">
+            <button className="py-3 px-6 bg-primary text-xl mt-5 text-white rounded-full hover:bg-secondary duration-300">
               Start Now
             </button>
           </div>

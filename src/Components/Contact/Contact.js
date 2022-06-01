@@ -20,64 +20,64 @@ const Contact = () => {
         </h2>
         <form className="mt-10">
           <div className="flex mt-5">
-            <div class="relative w-2/5 mr-3">
+            <div className="relative w-2/5 mr-3">
               <input
                 type="text"
                 placeholder="First Name"
-                class="input input-bordered w-full pl-16 rounded-full shadow-lg"
+                className="input input-bordered w-full pl-16 rounded-full shadow-lg"
               />
-              <button class="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
+              <button className="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
                 <RiContactsFill />
               </button>
             </div>
-            <div class="relative w-2/5">
+            <div className="relative w-2/5">
               <input
                 type="text"
                 placeholder="Last Name"
-                class="input input-bordered w-full pl-16 rounded-full  shadow-lg"
+                className="input input-bordered w-full pl-16 rounded-full  shadow-lg"
               />
-              <button class="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
+              <button className="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
                 <RiContactsFill />
               </button>
             </div>
           </div>
 
           <div className="flex mt-5">
-            <div class="relative w-2/5 mr-3">
+            <div className="relative w-2/5 mr-3">
               <input
                 type="text"
                 placeholder="Email"
-                class="input input-bordered w-full pl-16 rounded-full  shadow-lg"
+                className="input input-bordered w-full pl-16 rounded-full  shadow-lg"
               />
-              <button class="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
+              <button className="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
                 <MdOutlineMailOutline />
               </button>
             </div>
-            <div class="relative w-2/5">
+            <div className="relative w-2/5">
               <input
                 type="text"
                 placeholder="Phone"
-                class="input input-bordered w-full pl-16 rounded-full  shadow-lg"
+                className="input input-bordered w-full pl-16 rounded-full  shadow-lg"
               />
-              <button class="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
+              <button className="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
                 <FiPhone />
               </button>
             </div>
           </div>
 
           <div className="flex mt-5">
-            <div class="relative w-2/5 mr-3">
+            <div className="relative w-2/5 mr-3">
               <input
                 type="text"
                 placeholder="Project Title"
-                class="input input-bordered w-full pl-16 rounded-full  shadow-lg"
+                className="input input-bordered w-full pl-16 rounded-full  shadow-lg"
               />
-              <button class="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
+              <button className="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
                 <HiDocumentReport />
               </button>
             </div>
-            <div class="relative w-2/5">
-              <select class="select select-bordered w-full text-secondary max-w-xs pl-16 rounded-full  shadow-lg">
+            <div className="relative w-2/5">
+              <select className="select select-bordered w-full text-secondary max-w-xs pl-16 rounded-full  shadow-lg">
                 <option disabled selected>
                   Choose Service
                 </option>
@@ -85,22 +85,22 @@ const Contact = () => {
                 <option>Web Design</option>
                 <option>App Devlopment</option>
               </select>
-              <button class="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
+              <button className="absolute top-3 left-5 border-r-4 border-primary text-primary text-2xl rounded-full">
                 <BsUiChecks />
               </button>
             </div>
           </div>
-          <div class="relative w-3/4 mt-5">
+          <div className="relative w-3/4 mt-5">
             <textarea
-              class="textarea h-3/6 pt-5 input input-bordered w-full pl-16 rounded-full  shadow-lg"
+              className="textarea h-3/6 pt-5 input input-bordered w-full pl-16 rounded-full  shadow-lg"
               placeholder="Message"
             ></textarea>
-            <button class="absolute top-6 left-5 border-r-4 border-primary text-primary text-2xl rounded-full shadow-lg">
+            <button className="absolute top-6 left-5 border-r-4 border-primary text-primary text-2xl rounded-full shadow-lg">
               <AiOutlineMessage />
             </button>
           </div>
         </form>
-        <button class="btn btn-primary px-10 mt-5 rounded-full text-white">
+        <button className="btn btn-primary px-10 mt-5 rounded-full text-white">
           Subscribe Now
         </button>
       </div>

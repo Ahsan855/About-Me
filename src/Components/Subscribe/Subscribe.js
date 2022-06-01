@@ -21,14 +21,14 @@ const Subscribe = () => {
           dolorum. tempore quia ratione quod at magnam iusto voluptatum harum
           dolores dolorum.
         </p>
-        <div class="form-control w-10/12 p-2 bg-white rounded-full mt-10">
-          <div class="relative">
+        <div className="form-control w-10/12 p-2 bg-white rounded-full mt-10">
+          <div className="relative">
             <input
               type="text"
               placeholder="Email Address"
-              class=" input w-full rounded-full"
+              className=" input w-full rounded-full"
             />
-            <button class="btn btn-primary px-20 absolute top-0 right-0 rounded-full">
+            <button className="btn btn-primary px-20 absolute top-0 right-0 rounded-full">
               Subscribe
             </button>
           </div>

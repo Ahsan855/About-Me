@@ -32,15 +32,15 @@ const Blog = () => {
           className="mySwiper"
         >
           <SwiperSlide className="mb-10">
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -48,7 +48,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
@@ -64,15 +64,15 @@ const Blog = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -80,7 +80,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
@@ -96,15 +96,15 @@ const Blog = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -112,7 +112,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
@@ -128,15 +128,15 @@ const Blog = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -144,7 +144,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
@@ -160,15 +160,15 @@ const Blog = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -176,7 +176,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
@@ -192,15 +192,15 @@ const Blog = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -208,7 +208,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
@@ -224,15 +224,15 @@ const Blog = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -240,7 +240,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
@@ -256,15 +256,15 @@ const Blog = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -272,7 +272,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
@@ -288,15 +288,15 @@ const Blog = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+            <div className="card card-compact w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://api.lorem.space/image/shoes?w=400&h=225"
                   alt="Shoes"
                 />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title text-secondary">
+              <div className="card-body">
+                <h2 className="card-title text-secondary">
                   Praesent ut lobortis purus hasellus libero orci, accumsan.
                 </h2>
                 <p className="text-accent">
@@ -304,7 +304,7 @@ const Blog = () => {
                   Optio, veritatis temporibus. Quidem commodi accusamus iusto
                   repellendus non autem aliquam quibusdam.
                 </p>
-                <div class="card-actions justify-around mt-10">
+                <div className="card-actions justify-around mt-10">
                   <div className="grid grid-cols-1 md:grid-cols-2">
                     <div className="flex items-center text-xl">
                       <BiTimeFive className="text-primary mr-2" /> 7 March, 2022
