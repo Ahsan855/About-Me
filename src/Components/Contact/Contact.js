@@ -77,7 +77,7 @@ const Contact = () => {
               </button>
             </div>
             <div class="relative w-2/5">
-              <select class="select select-bordered w-full max-w-xs pl-16 text-primary rounded-full  shadow-lg">
+              <select class="select select-bordered w-full text-secondary max-w-xs pl-16 rounded-full  shadow-lg">
                 <option disabled selected>
                   Choose Service
                 </option>

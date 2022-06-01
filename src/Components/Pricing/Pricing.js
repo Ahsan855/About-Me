@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 mb-16">
       <div>
         <h1 className="text-xl uppercase text-secondary text-center">
           pricing
