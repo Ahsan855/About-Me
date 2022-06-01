@@ -9,10 +9,12 @@ import { AiOutlineMessage } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 justify-center items-center p-10">
+    <div className="grid grid-cols-1 bg-[#E4E4E4] md:grid-cols-2 gap-3 justify-center items-center p-10">
       <div className="text-left">
         <h1 className="text-primary text-xl">
-          <span className=" border-2 p-2 rounded-md">Conact us</span>
+          <span className=" border-2 p-2 border-secondary rounded-md">
+            Conact us
+          </span>
         </h1>
         <h2 className="text-5xl text-secondary mt-5">
           We Love To Help Great <br /> Companies To Enlarge Their <br />{" "}

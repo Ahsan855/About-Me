@@ -1,14 +1,48 @@
 import React from "react";
+import { RiContactsFill } from "react-icons/ri";
+import { ImOffice } from "react-icons/im";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer p-10 bg-primary text-base-content">
-        <div className="w-3/6">
+    <div className="mt-10">
+      <div className="bg-primary py-16 flex justify-between px-20 items-center">
+        <div>
+          <h1 className="text-4xl text-white font-bold">Devloper Build</h1>
+        </div>
+        <div className="flex">
+          <div className="relative flex justify-center items-center mr-5">
+            <div className="mr-16">
+              <button className="absolute border-r-4 mt-[-20px] border-primary text-white text-4xl rounded-full">
+                <RiContactsFill />
+              </button>
+            </div>
+            <div>
+              <p className="text-white text-2xl my-2">+880111111111</p>
+              <p className="text-white text-2xl">Email@gmail.com</p>
+            </div>
+          </div>
+          <div className="relative flex justify-center items-center">
+            <div className="mx-16">
+              <button className="absolute border-r-4 mt-[-20px] border-primary text-white text-4xl rounded-full">
+                <ImOffice />
+              </button>
+            </div>
+            <div>
+              <p className="text-white text-2xl my-2">Marmora Road Chi </p>
+              <p className="text-white text-2xl">Minh City, Vietnam</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <footer className="footer p-10 bg-primary grid grid-cols-1 md:grid-cols-4">
+        <div className="mr-5">
           <h1 className="text-2xl text-white">
             <span className="border-b-2 border-white">About Us</span>
           </h1>
-          <p className="text-white w-3/5 text-xl text-left mb-5">
+          <p className="text-white text-left mb-5">
             Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed.
             Aliquam magna augue, malesuada ut feugiat eget, cursus eget felis.
           </p>
@@ -78,22 +112,22 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-white">
-          <span className="footer-title">Our Links</span>
+        <div className="text-white ml-5">
+          <span className="text-2xl text-white border-b-2">Our Links</span>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>
           <a className="link link-hover">Advertisement</a>
         </div>
         <div className="text-white">
-          <span className="footer-title">Company</span>
+          <span className="text-2xl text-white border-b-2">Company</span>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a>
         </div>
         <div className="text-white">
-          <span className="footer-title">Legal</span>
+          <span className="text-2xl text-white border-b-2">Legal</span>
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
