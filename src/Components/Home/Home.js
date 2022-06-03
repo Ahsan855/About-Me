@@ -6,6 +6,8 @@ import Fetures from "../Fetures/Fetures";
 import Pricing from "../Pricing/Pricing";
 import Services from "../Service/Services";
 import Subscribe from "../Subscribe/Subscribe";
+import Team from "../Team/Team";
+import Testmonial from "../Testmonial/Testmonial";
 import Banner from "./Banner/Banner";
 import ViewSection from "./ViewSection";
 
@@ -13,7 +15,9 @@ const Home = () => {
   return (
     <div>
       <Banner />
+      <Team />
       <Services />
+      <Testmonial />
       <About />
       <Fetures />
       <Subscribe />
