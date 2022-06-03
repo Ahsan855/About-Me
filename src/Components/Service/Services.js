@@ -13,15 +13,15 @@ const Services = () => {
         Provide Awesome Service To You
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 px-10 gap-4 mt-5 items-center justify-center">
-        <div className="text-center shadow-lg rounded-lg shadow-primary p-10">
+        <div className="text-center shadow-sm rounded-lg shadow-primary p-10">
           <img src={image2} alt="" className="w-3/6 mx-auto mb-7" />
-          <h1 className="text-secondary mb-4 text-3xl">Strategy & Research</h1>
+          <h1 className="text-secondary mb-4 text-3xl">Full-Stack Devloper</h1>
           <p className="text-accent">
             Fusce sit amet dui vitae urna tristique imperdiet. Donec eget sapien
             euismod, faucibus nibh non, consequat elit. Praesent sed vehicula.
           </p>
         </div>
-        <div className="text-center shadow-lg rounded-lg shadow-primary p-10">
+        <div className="text-center shadow-sm rounded-lg shadow-primary p-10">
           <img src={image3} alt="" className="w-3/6 mx-auto mb-7" />
           <h1 className="text-secondary mb-4 text-3xl">Web Devlopment</h1>
           <p className="text-accent">
@@ -29,7 +29,7 @@ const Services = () => {
             euismod, faucibus nibh non, consequat elit. Praesent sed vehicula.
           </p>
         </div>
-        <div className="text-center shadow-lg rounded-lg shadow-primary p-10">
+        <div className="text-center shadow-sm rounded-lg shadow-primary p-10">
           <img src={image4} alt="" className="w-3/6 mx-auto mb-7" />
           <h1 className="text-secondary mb-4 text-3xl">Web Solution</h1>
           <p className="text-accent">

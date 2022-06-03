@@ -7,6 +7,7 @@ import Pricing from "../Pricing/Pricing";
 import Services from "../Service/Services";
 import Subscribe from "../Subscribe/Subscribe";
 import Banner from "./Banner/Banner";
+import ViewSection from "./ViewSection";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Subscribe />
       <Pricing />
       <Blog />
+      <ViewSection />
       <Contact />
     </div>
   );
