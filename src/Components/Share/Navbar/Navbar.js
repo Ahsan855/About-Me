@@ -30,6 +30,14 @@ const Navbar = () => {
       <li>
         <NavLink
           className="my-2 mr-5 focus:text-white text-secondary font-semibold"
+          to="/team"
+        >
+          Teams
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          className="my-2 mr-5 focus:text-white text-secondary font-semibold"
           to="/contact"
         >
           Contact
@@ -43,17 +51,6 @@ const Navbar = () => {
           Projects
         </NavLink>
       </li>
-
-      {user && (
-        <li>
-          <NavLink
-            className="my-2 mr-5 focus:text-white text-secondary font-semibold"
-            to="/dashboard"
-          >
-            Dashboard
-          </NavLink>
-        </li>
-      )}
 
       {user && (
         <li>

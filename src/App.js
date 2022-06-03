@@ -13,6 +13,7 @@ import Services from "./Components/Service/Services";
 import Footer from "./Components/Share/Footer/Footer";
 import Navbar from "./Components/Share/Navbar/Navbar";
 import Signup from "./Components/Signup/Signup";
+import Team from "./Components/Team/Team";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/pages" element={<Pages />} />
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/dashboard" element={<Dashboard />}>
           <Route path="myorders" element={<MyOrder />} />

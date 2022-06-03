@@ -1,11 +1,7 @@
 import React from "react";
 
 const Pages = () => {
-  return (
-    <div>
-      <h1>this is page</h1>
-    </div>
-  );
+  return <div>hti is asdfjasdfjkasdf</div>;
 };
 
 export default Pages;
